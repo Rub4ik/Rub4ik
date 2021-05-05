@@ -33,7 +33,7 @@ $postid = isset( $_POST['portid'] ) ? $_POST['portid'] : '';
 			<!-- Portfolio Single - Meta
 			============================================= -->
 			<ul class="portfolio-meta bottommargin">
-				<li><span><i class="icon-user"></i>Created by:</span> John Doe</li>
+				<li><span><i class="icon-user"></i>Created by:</span> Ibrokhim Ruzmetov</li>
 				<li><span><i class="icon-calendar3"></i>Completed on:</span> 17th March 2021</li>
 				<li><span><i class="icon-lightbulb"></i>Skills:</span> HTML5 / PHP / CSS3</li>
 				<li><span><i class="icon-link"></i>Client:</span> <a href="#">Google</a></li>
