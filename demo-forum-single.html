@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=F9BE79" type="text/css" />
+
+	<!-- Forum Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/forum/forum.css" type="text/css" /> <!-- Forum Custom Css -->
+	<link rel="stylesheet" href="demos/forum/css/fonts.css" type="text/css" /> <!-- Forum Custom Fonts -->
+	<!-- / -->
+
+	<!-- Document Title
+	============================================= -->
+	<title>Single - Forum / Community | Canvas</title>
+
+</head>
+
+<body class="stretched search-overlay">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header header-size-md" data-mobile-sticky="true">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="demo-forum.html" class="standard-logo"><img src="demos/forum/images/canvasforum.png" alt="Canvas Logo"></a>
+							<a href="demo-forum.html" class="retina-logo"><img src="demos/forum/images/canvasforum@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc ml-0">
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<!-- Top Account
+							============================================= -->
+							<div class="header-misc-icon">
+								<a href="#" id="notifylink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="12,12"><i class="icon-line-bell notification-badge"></i></a>
+								<div class="dropdown-menu dropdown-menu-right py-0 m-0 overflow-auto" aria-labelledby="notifylink" style="width: 320px; max-height: 300px">
+									<span class="dropdown-header border-bottom border-f5 font-weight-medium text-uppercase ls1">Notifications</span>
+									<div class="list-group list-group-flush">
+										<a href="#" class="d-flex list-group-item">
+											<img src="demos/articles/images/authors/2.jpg" width="35" height="35" class="rounded-circle mr-3 mt-1" alt="Profile">
+											<div class="media-body">
+												<h5 class="my-0 font-weight-normal text-muted"><span class="text-dark font-weight-bold">SemiColonWeb</span> has replied on your post <span class="text-dark font-weight-bold">Package Generator – Approx time for a file.</span></h5>
+												<small class="text-smaller">10 mins ago</small>
+											</div>
+										</a>
+										<a href="#" class="d-flex list-group-item">
+											<i class="icon-line-check badge-icon bg-success text-white mr-3 mt-1"></i>
+											<div class="media-body">
+												<h5 class="my-0 font-weight-normal text-muted"><span class="text-dark font-weight-bold">SemiColonWeb</span> has marked to your post as solved.</h5>
+												<small class="text-smaller">2 days ago</small>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Top Account
+							============================================= -->
+							<div class="header-misc-icon profile-image">
+								<a href="#" id="profilelink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="12,12"><img class="rounded-circle" src="demos/forum/images/user.png" alt="User"></a>
+								<div class="dropdown-menu dropdown-menu-right py-0 m-0" aria-labelledby="profilelink">
+									<a class="dropdown-item" href="demo-forum-edit.html"><i class="icon-line-edit mr-2"></i>Edit Profile</a>
+									<a class="dropdown-item" href="demo-forum-single.html"><i class="icon-line-align-left mr-2"></i>Your Topics</a>
+									<a class="dropdown-item" href="demo-forum-signout.html"><i class="icon-line-log-out mr-2"></i>Sign Out</a>
+								</div>
+							</div>
+
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item"><a class="menu-link" href="demo-forum.html"><div>Home</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="demo-forum-single.html"><div>Topic Page</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum.html#modal-signin"><div>Create</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-profile.html"><div>Profile</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-search-result.html"><div>Search Page</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-signin.html"><div>Sign In Page</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form bg-alt dark" action="search.html" method="get">
+							<div class="container row justify-content-center">
+								<div class="col-sm-8">
+									<input type="text" name="q" class="form-control form-control-lg mb-5 border-color" value="" placeholder="Type Your Query &amp; Hit Enter.." autocomplete="off">
+									<div class="row col-mb-30">
+										<div class="col-md-6">
+											<div class="widget widget_links clearfix">
+												<h4 class="">Recent Topics</h4>
+												<ul>
+													<li><a href="#">Package Generator – Approx time for a file</a></li>
+													<li><a href="#">Open sub-menu touching menu-item name</a></li>
+													<li><a href="#">Portfolio Overlay Slide fadein fadeout</a></li>
+													<li><a href="#">Show menu .dropdown-menu down only</a></li>
+													<li><a href="#">Couldnt Generate Package Snippet</a></li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="col-md-6">
+											<div class="widget widget_links clearfix">
+												<h4 class="">Helpful Documentation</h4>
+												<ul>
+													<li><a href="#">How to Install</a></li>
+													<li><a href="#">How to setup Niche Demos</a></li>
+													<li><a href="#">Header Layouts and Styles</a></li>
+													<li><a href="#">Setup Forms</a></li>
+													<li><a href="#">Setup RTL</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="bg-color py-6 page-title-center text-center">
+			<div class="container">
+				<h2 class="h2" style="font-weight: 800">Jump In Content When Using Include-Header Class</h2>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a class="alt-color" href="#">Forum</a></li>
+					<li class="breadcrumb-item"><a class="alt-color" href="#">Canvas</a></li>
+					<li class="breadcrumb-item text-black-50 active" aria-current="page">Jump In Content When Using Include-Header Class</li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container mw-md">
+
+					<div class="topic-post">
+						<div class="row no-gutters justify-content-between align-items-center border-top border-bottom py-3 mb-4">
+							<div class="col-9">
+								<div class="d-flex align-items-center">
+									<img src="demos/articles/images/authors/2.jpg" alt="Author" class="rounded-circle mr-2" width="50" height="50">
+									<div>
+										<h5 class="mb-0 h6 font-weight-semibold"><a class="text-dark" href="#">Gordon Norman</a></h5>
+										<small class="text-muted mb-0 font-weight-normal">August 15, 2020, 7:54 AM</small>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-auto">
+								<a href="#" id="editlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis icon-2x alt-color"></i></a>
+								<div class="dropdown-menu dropdown-menu-links rounded shadow-sm dropdown-menu-right py-0 m-0" aria-labelledby="editlink">
+									<a class="dropdown-item rounded-top" href="#"><i class="icon-line-edit mr-2"></i>Edit</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-circle-cross mr-2"></i>Close</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-arrow-up mr-2"></i>Stick On Top</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-git-merge mr-2"></i>Merge</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-trash-2 mr-2"></i>Trash</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-alert-triangle mr-2"></i>Spam</a>
+									<a class="dropdown-item" href="#message-reply" data-scrollto="#message-reply"><i class="icon-line-corner-up-left mr-2"></i>Reply</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+
+						<p>Hi,<br><br>
+						First of all, great template, I was working on a new site with version 5.9 when version 6 came out so I’m starting again with version 6.<br><br>
+						I have 2 things so far that I would like to see if there is a solution for this:<br></p>
+						<ol class="ml-3">
+							<li class="mb-4">If you are trying to build a page that has a transparent header (similar to this one <a href="http://themes.semicolonweb.com/html/canvas/index-fullscreen-image.html" rel="nofollow"><u>http://themes.semicolonweb.com/html/canvas/index-fullscreen-image.html</u></a> )  and you add the include-header class on the hero image / slider section, then once the page has loaded and the “header-wrap-clone” element is added the whole graphic jump down, what is not very nice. Is there any way that I can do to fix this? You can see the jump on your demo page <a href="http://themes.semicolonweb.com/html/canvas/index-fullscreen-image.html" rel="nofollow"><u>http://themes.semicolonweb.com/html/canvas/index-fullscreen-image.html</u></a></li>
+							<li>I like the sticky-footer option where the footer is static in the background and the content slide off it, the only problem I have is that, if there is not enough content on the page the footer is not sticking to the bottom of the page as in 5.9, the footer is riding up the page. (see image) is there anything that I can do to make the footer always stick to the bottom of the page?</li>
+						</ol>
+						<p>Thanks <strong>Rob</strong>.</p>
+
+						<div class="col-1 pb-3 px-0">
+							<hr>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-2 col-md-3 col-4">
+								<a href="images/portfolio/full/9-1.jpg" data-lightbox="image">
+									<img src="images/portfolio/4/9-1.jpg" alt="Image" class="mb-1 rounded-sm">
+								</a>
+								<div class="d-flex align-items-center justify-content-between px-2">
+									<h5 class="mb-0">Index.html</h5>
+									<a href="#"><i class="icon-line-trash-2"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="topic-post reply mt-5 p-4 p-md-5 border-top border-width-5 border-color">
+						<div class="row justify-content-between align-items-center mb-4">
+							<div class="col-9">
+								<h2 class="mb-0 font-weight-bold"><i class="icon-line-check text-success"></i> Reply</h2>
+							</div>
+							<div class="col-auto">
+								<a href="#" class="badge badge-success text-white p-2">Solved</a>
+							</div>
+						</div>
+						<div class="row no-gutters justify-content-between align-items-center border-top border-bottom border-color py-3 mb-4">
+							<div class="col-9">
+								<div class="d-flex align-items-center">
+									<img src="demos/forum/images/user.png" alt="Author" class="rounded-circle mr-2" width="50" height="50">
+									<div>
+										<h5 class="mb-0 h6 font-weight-semibold align-middle"><a class="text-dark" href="#">SemiColonWeb</a><span class="badge badge-info text-white p-1 ml-1">Team</span></h5>
+										<small class="text-muted mb-0 font-weight-normal">August 11, 2020, 12:03 PM</small>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-auto">
+								<a href="#" id="editlink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis icon-2x alt-color"></i></a>
+								<div class="dropdown-menu dropdown-menu-links rounded shadow-sm dropdown-menu-right py-0 m-0" aria-labelledby="editlink2">
+									<a class="dropdown-item rounded-top" href="#"><i class="icon-line-edit mr-2"></i>Edit</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-circle-cross mr-2"></i>Close</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-arrow-up mr-2"></i>Stick On Top</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-git-merge mr-2"></i>Merge</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-trash-2 mr-2"></i>Trash</a>
+									<a class="dropdown-item" href="#"><i class="icon-line-alert-triangle mr-2"></i>Spam</a>
+									<a class="dropdown-item" href="#message-reply" data-scrollto="#message-reply"><i class="icon-line-corner-up-left mr-2"></i>Reply</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+						<p>Hello,</p>
+						<p>Thank You so much for the Kind Words! <img draggable="false" class="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/11/svg/1f642.svg" width="14"></p>
+						<ol class="ml-3"><li><p>You can see this Jump due to the Page Transitions being disabled by default in the Latest Version of Canvas. If you enable it again: <a class="text-dark font-weight-semibold" href="http://docs.semicolonweb.com/docs/getting-started/page-transition/" rel="nofollow"><u>http://docs.semicolonweb.com/docs/getting-started/page-transition/</u></a>, this will be hidden. As the Headers in Canvas 6 is Flexible and does not use any Fixed Heights, we have to calculate the Heights for the Header using JS and it is being applied while the Page is being Loaded. We will try to continue finding ways to make it more elegant in the Future Versions. So, simply adding the <code>.page-transition</code> Class to the <strong>&lt;body&gt;</strong> tag should fix this.</p></li>
+						<li><p>We have removed the JS Code that used to calculate this in the Latest Version to minimize JS Usage. Consider using a Minimum Height for the <code>#content</code> DIV by simply adding the <code>.min-vh-75</code> Class to it. This will add a minimum height of <strong>75%</strong> Viewport Height to the <code>#content</code> Area which would make the Footer sticky at the bottom always and will also be reliable on CSS which would be way faster and easier on the browsers too. If this would not be an optimal solution for you, please let us know.</p></li></ol>
+						<p>Hope this Helps!</p>
+						<p>Let us know if we can help you with anything else or if you find any further issues.</p>
+
+						<div class="col-1 pb-3 px-0">
+							<hr>
+						</div>
+
+						<span class="font-weight-semibold">
+							Thanks & Regards,<br>
+							SemiColonWeb Team.
+						</span>
+					</div>
+
+					<div id="message-reply" class="topic-form mt-5">
+						<h3 class="h2 font-weight-bolder mb-4">Reply to the Message</h3>
+						<form class="row" action="#" method="post" enctype="multipart/form-data">
+							<div class="col-12 form-group mb-4">
+								<textarea name="post-message" id="post-message" class="form-control" cols="30" rows="10"></textarea>
+							</div>
+							<div class="clear"></div>
+							<div class="col-6 form-group">
+								<small class="text-muted">Maximum file size allowed is 2048 KB.</small>
+								<div class="custom-file">
+									<input type="file" class="custom-file-input" id="file-input">
+									<label class="custom-file-label nott ls0 mb-0 font-weight-normal" for="file-input">Choose file</label>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="col-12 form-group mb-1">
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+									<label class="form-check-label nott ls0 mb-0 font-weight-semibold" for="inlineCheckbox1">Set as a Private Reply</label>
+								</div>
+							</div>
+							<div class="clear"></div>
+							<div class="col-12 form-group">
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+									<label class="form-check-label nott ls0 mb-0 font-weight-semibold" for="inlineCheckbox2">Email me when Someone Replies</label>
+								</div>
+							</div>
+							<div class="col-12">
+								<button type="submit" name="submit" class="button button-large bg-alt py-2 rounded-sm font-weight-medium nott ls0 ml-0">Submit Now</button>
+							</div>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark" style="background-color: #101010;">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<div class="widget clearfix">
+
+								<div class="row col-mb-30">
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Home</a></li>
+											<li><a href="#">About</a></li>
+											<li><a href="#">FAQs</a></li>
+											<li><a href="#">Support</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Shop</a></li>
+											<li><a href="#">Portfolio</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Events</a></li>
+											<li><a href="#">Forums</a></li>
+										</ul>
+									</div>
+
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Corporate</a></li>
+											<li><a href="#">Agency</a></li>
+											<li><a href="#">eCommerce</a></li>
+											<li><a href="#">Personal</a></li>
+											<li><a href="#">One Page</a></li>
+										</ul>
+									</div>
+
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Corporate</a></li>
+											<li><a href="#">Agency</a></li>
+											<li><a href="#">eCommerce</a></li>
+											<li><a href="#">Personal</a></li>
+											<li><a href="#">One Page</a></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-3 mt-5 mt-lg-0 text-center text-lg-right">
+							<div class="widget clearfix">
+
+								<div class="row">
+									<div class="col-12 mb-3">
+										<small>Call Us:</small>
+										<h4 class="h4">+(1) 22 55412474</h4>
+									</div>
+
+									<div class="col-12 d-flex justify-content-center justify-content-lg-end">
+										<a href="#" class="social-icon si-small si-light si-facebook">
+											<i class="icon-facebook"></i>
+											<i class="icon-facebook"></i>
+										</a>
+										<a href="#" class="social-icon si-small si-light si-delicious">
+											<i class="icon-delicious"></i>
+											<i class="icon-delicious"></i>
+										</a>
+										<a href="#" class="social-icon si-small si-light si-paypal">
+											<i class="icon-paypal"></i>
+											<i class="icon-paypal"></i>
+										</a>
+										<a href="#" class="social-icon si-small si-light si-flattr">
+											<i class="icon-flattr"></i>
+											<i class="icon-flattr"></i>
+										</a>
+									</div>
+
+									<div class="col-12 mt-5 text-white-50 text-smaller">
+										All Rights Reserved <br>&copy; 2020 by SemiColonWeb<br>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- TinyMCE Plugin -->
+	<script src="js/components/tinymce/tinymce.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery(document).ready( function(){
+
+            $('input[type="file"]').change(function(e){
+		        var fileName = e.target.files[0].name;
+		        $('.custom-file-label').html(fileName);
+		    });
+
+			tinymce.init({
+				selector: '#post-message',
+				menubar: false,
+				setup: function(editor) {
+					editor.on('change', function(e) {
+						editor.save();
+					});
+				}
+			});
+		});
+	</script>
+
+</body>
+</html>

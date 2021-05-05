@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=F9BE79" type="text/css" />
+
+	<!-- Forum Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/forum/forum.css" type="text/css" /> <!-- Forum Custom Css -->
+	<link rel="stylesheet" href="demos/forum/css/fonts.css" type="text/css" /> <!-- Forum Custom Fonts -->
+	<!-- / -->
+
+	<!-- Document Title
+	============================================= -->
+	<title>Forum / Community | Canvas</title>
+
+</head>
+
+<body class="stretched search-overlay">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Modal -->
+		<div class="modal fade" id="modal-signin" tabindex="-1" aria-labelledby="modal-signin" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content bg-white p-4 p-md-5 rounded">
+					<h3 class="h2 font-weight-bolder mb-4">Create a New Topic</h3>
+					<form class="row mb-0" action="#" method="post" enctype="multipart/form-data">
+						<div class="col-12 form-group mb-4">
+							<textarea name="post-message" id="post-message" class="form-control" cols="30" rows="10"></textarea>
+						</div>
+						<div class="clear"></div>
+						<div class="col-6 form-group">
+							<small class="text-muted">Maximum file size allowed is 2048 KB.</small>
+							<div class="custom-file">
+								<input type="file" class="custom-file-input" id="file-input">
+								<label class="custom-file-label nott ls0 mb-0 font-weight-normal" for="file-input">Choose file</label>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="col-12 form-group mb-1">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+								<label class="form-check-label nott ls0 mb-0 font-weight-semibold" for="inlineCheckbox1">Set as a Private Reply</label>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="col-12 form-group">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+								<label class="form-check-label nott ls0 mb-0 font-weight-semibold" for="inlineCheckbox2">Email me when Someone Replies</label>
+							</div>
+						</div>
+						<div class="col-12">
+							<button type="submit" name="submit" class="button button-large bg-alt border border-width-2 rounded-sm font-weight-medium nott ls0 ml-0">Submit Now</button>
+
+							<button type="button" data-dismiss="modal" aria-label="Close" class="button button-large button-border border-default h-bg-danger rounded-sm font-weight-medium nott ls0 ml-0">Cancel</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header header-size-md" data-mobile-sticky="true">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="demo-forum.html" class="standard-logo"><img src="demos/forum/images/canvasforum.png" alt="Canvas Logo"></a>
+							<a href="demo-forum.html" class="retina-logo"><img src="demos/forum/images/canvasforum@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc ml-0">
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<!-- Top Account
+							============================================= -->
+							<div class="header-misc-icon">
+								<a href="#" id="notifylink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="12,12"><i class="icon-line-bell notification-badge"></i></a>
+								<div class="dropdown-menu dropdown-menu-right py-0 m-0 overflow-auto" aria-labelledby="notifylink" style="width: 320px; max-height: 300px">
+									<span class="dropdown-header border-bottom border-f5 font-weight-medium text-uppercase ls1">Notifications</span>
+									<div class="list-group list-group-flush">
+										<a href="#" class="d-flex list-group-item">
+											<img src="demos/articles/images/authors/2.jpg" width="35" height="35" class="rounded-circle mr-3 mt-1" alt="Profile">
+											<div class="media-body">
+												<h5 class="my-0 font-weight-normal text-muted"><span class="text-dark font-weight-bold">SemiColonWeb</span> has replied on your post <span class="text-dark font-weight-bold">Package Generator – Approx time for a file.</span></h5>
+												<small class="text-smaller">10 mins ago</small>
+											</div>
+										</a>
+										<a href="#" class="d-flex list-group-item">
+											<i class="icon-line-check badge-icon bg-success text-white mr-3 mt-1"></i>
+											<div class="media-body">
+												<h5 class="my-0 font-weight-normal text-muted"><span class="text-dark font-weight-bold">SemiColonWeb</span> has marked to your post as solved.</h5>
+												<small class="text-smaller">2 days ago</small>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Top Account
+							============================================= -->
+							<div class="header-misc-icon profile-image">
+								<a href="#" id="profilelink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="12,12"><img class="rounded-circle" src="demos/forum/images/user.png" alt="User"></a>
+								<div class="dropdown-menu dropdown-menu-right py-0 m-0" aria-labelledby="profilelink">
+									<a class="dropdown-item" href="demo-forum-edit.html"><i class="icon-line-edit mr-2"></i>Edit Profile</a>
+									<a class="dropdown-item" href="demo-forum-single.html"><i class="icon-line-align-left mr-2"></i>Your Topics</a>
+									<a class="dropdown-item" href="demo-forum-signout.html"><i class="icon-line-log-out mr-2"></i>Sign Out</a>
+								</div>
+							</div>
+
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="demo-forum.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-single.html"><div>Topic Page</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#" data-toggle="modal" data-target="#modal-signin"><div>Create</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-profile.html"><div>Profile</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-search-result.html"><div>Search Page</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-forum-signin.html"><div>Sign In Page</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form bg-alt dark" action="search.html" method="get">
+							<div class="container row justify-content-center">
+								<div class="col-sm-8">
+									<input type="text" name="q" class="form-control form-control-lg mb-5 border-color" value="" placeholder="Type Your Query &amp; Hit Enter.." autocomplete="off">
+									<div class="row col-mb-30">
+										<div class="col-md-6">
+											<div class="widget widget_links clearfix">
+												<h4 class="">Recent Topics</h4>
+												<ul>
+													<li><a href="demo-forum-single.html">Package Generator – Approx time for a file</a></li>
+													<li><a href="demo-forum-single.html">Open sub-menu touching menu-item name</a></li>
+													<li><a href="demo-forum-single.html">Portfolio Overlay Slide fadein fadeout</a></li>
+													<li><a href="demo-forum-single.html">Show menu .dropdown-menu down only</a></li>
+													<li><a href="demo-forum-single.html">Couldnt Generate Package Snippet</a></li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="col-md-6">
+											<div class="widget widget_links clearfix">
+												<h4 class="">Helpful Documentation</h4>
+												<ul>
+													<li><a href="demo-forum-single.html">How to Install</a></li>
+													<li><a href="demo-forum-single.html">How to setup Niche Demos</a></li>
+													<li><a href="demo-forum-single.html">Header Layouts and Styles</a></li>
+													<li><a href="demo-forum-single.html">Setup Forms</a></li>
+													<li><a href="demo-forum-single.html">Setup RTL</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element bg-color">
+			<div class="container">
+				<div class="row h-100">
+					<div class="col-lg-6 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+						<p class="mb-3 text-larger font-weight-light">Hello, <strong class="font-weight-bold"><u>SemiColonWeb</u></strong></p>
+						<h2 class="display-4" style="font-weight: 800">Welcome to our Canvas Community.</h2>
+						<div class="input-group input-group-lg mt-2 mb-4">
+							<input class="form-control rounded-left border-0" type="search" placeholder="Search Your Topics.." aria-label="Search">
+							<div class="input-group-append">
+								<button class="btn btn-light border-0" type="submit"><i class="icon-line-search"></i></button>
+							</div>
+						</div>
+						<div>
+							<a href="#" data-toggle="modal" data-target="#modal-signin" class="button button-large border border-width-2 bg-alt py-2 rounded-sm font-weight-medium nott ls0 ml-0 ml-sm-1 h-op-09"><i class="icon-line-file-add"></i>Create A New Topic</a>
+							<a href="demo-forum-single.html" class="button button-large button-border rounded-sm font-weight-medium nott h-bg-alt ls0 ml-0"><i class="icon-line-align-left"></i>Browse All Topics</a>
+						</div>
+					</div>
+
+					<div class="col-lg-6 d-flex align-self-end flex-column">
+						<img src="demos/forum/images/hero.svg" alt="Hero Image" style="z-index: 3; transform: translateY(45px);">
+					</div>
+				</div>
+			</div>
+			<div class="bg-alt py-5">
+				<div class="container">
+					<div class="d-flex">
+						<h4 class="mb-0"><span class="counter counter-inherit font-weight-normal text-white"><i class="icon-line-users icon-fw"></i> <span class="color font-weight-semibold" data-from="100" data-to="12462" data-refresh-interval="150" data-speed="2000"></span> Members Registered.</span></h4>
+						<h4 class="mb-0 ml-5"><span class="counter counter-inherit font-weight-normal text-white"><i class="icon-line-message-circle icon-fw"></i> <span class="color font-weight-semibold" data-from="100" data-to="340333" data-refresh-interval="100" data-speed="2000"></span> Posts Created.</span></h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container">
+
+					<div class="row justify-content-center text-center mb-5">
+						<div class="col-xl-6 col-lg-8">
+							<h3 class="display-4 font-weight-bolder mb-3">Latest Discussions</h3>
+							<a href="#" data-toggle="modal" data-target="#modal-signin" class="button button-small button-border button-rounded  mx-0">Create A New Topic</a>
+						</div>
+					</div>
+
+					<div class="mw-md mx-auto">
+						<ul class="list-unstyled mb-4">
+							<li>
+								<ul class="topic list-unstyled row mx-0 justify-content-between align-items-center">
+									<li class="entry mb-0 col-sm-10">
+										<h3 class="mb-0"><a href="demo-forum-single.html">Jump In Content When Using Include-Header Class</a></h3>
+										<div class="entry-meta mt-1">
+											<ul>
+												<li><a href="#">40 mins ago</a></li>
+												<li><a href="#">4 Replies</a></li>
+												<li><a href="#" class="badge badge-info text-white">In Progress</a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="col-sm-2">
+										<div class="bbp-author">
+											<a href="#"><img alt="User" src="demos/articles/images/authors/3.jpg"></a>
+											<a href="#"><img alt="User" src="demos/articles/images/authors/2.jpg"></a>
+											<a href="#"><img alt="User" src="demos/forum/images/user.png"></a>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="topic odd list-unstyled row mx-0 justify-content-between align-items-center">
+									<li class="entry mb-0 col-sm-10">
+										<h3 class="mb-0"><a href="demo-forum-single.html">Open sub-menu touching menu-item name, instead of sub-menu-trigger only (mobile)</a></h3>
+										<div class="entry-meta mt-1">
+											<ul>
+												<li><a href="#">3 days ago</a></li>
+												<li><a href="#">1 Replies</a></li>
+												<li><a href="#" class="badge badge-info text-white">In Progress</a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="col-sm-2">
+										<div class="bbp-author">
+											<a href="#"><img alt="User" src="demos/articles/images/authors/2.jpg"></a>
+											<a href="#"><img alt="User" src="demos/forum/images/user.png"></a>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="topic list-unstyled row mx-0 justify-content-between align-items-center">
+									<li class="entry mb-0 col-sm-10">
+										<h3 class="mb-0"><a href="demo-forum-single.html">Portfolio Overlay Slide fadein fadeout</a></h3>
+										<div class="entry-meta mt-1">
+											<ul>
+												<li><a href="#">7 days ago</a></li>
+												<li><a href="#">21 Replies</a></li>
+												<li><a href="#" class="badge badge-success text-white">Solved</a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="col-sm-2">
+										<div class="bbp-author">
+											<a href="#"><img alt="User" src="demos/articles/images/authors/1.jpg"></a>
+											<a href="#"><img alt="User" src="demos/articles/images/authors/2.jpg"></a>
+											<a href="#"><img alt="User" src="demos/articles/images/authors/3.jpg"></a>
+											<a href="#"><img alt="User" src="demos/forum/images/user.png"></a>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+						<ul class="pagination justify-content-end">
+							<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true"> <span class="op-05" aria-hidden="true">&laquo;</span></a></li>
+							<li class="page-item active"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">4</a></li>
+							<li class="page-item"><a class="page-link" href="#">5</a></li>
+							<li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="section py-6 my-6" style="background-color: #bfd5dbab">
+					<div class="container">
+						<div class="row align-items-center col-mb-50">
+							<div class="col-md-6">
+								<img src="demos/forum/images/doc.svg" alt="Doc Image">
+							</div>
+							<div class="col-md-6">
+								<h2 class="display-4 mb-4 font-weight-bold">Our Documentation</h2>
+								<p>Continually leverage existing reliable users without seamless e-commerce. Professionally mesh interoperable solutions rather than highly efficient infrastructures. Monotonectally administrate tactical functionalities.</p>
+								<a href="#" class="button button-large bg-alt text-white font-weight-medium py-2 rounded-sm ml-0 ls0 nott"><i class="icon-line-paper"></i>View Documentation</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+
+				<div class="container my-4">
+					<div class="row justify-content-center text-center mb-5">
+						<div class="col-lg-6">
+							<h3 class="display-4 font-weight-bolder mb-3">Most Helpful Members</h3>
+							<p>Without seamless e-commerce professionally mesh</p>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-6">
+							<div class="row justify-content-center col-mb-30 gutter-50 text-center">
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/jzY0KRJopEI/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Jim Séchen</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/WNoLnJo7tS8/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Alan Fresco</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/JQFHdpOKz2k/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Fig Nelson</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/FsWi0sBoi8c/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Pelican Steve</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/UcgYvGPqQQ8/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Pelican Steve</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/5vg_SarQimA/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Russell Sprout</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/WZz1u5R5uT4/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Sir Cumference</a></h5>
+								</div>
+								<div class="col-md-3 col-4">
+									<img src="https://source.unsplash.com/uBqskoy6TW8/120x120" alt="Memebers" width="80" class="rounded-circle mb-2">
+									<h5 class="font-weight-medium"><a href="demo-forum-profile.html">Theodore Handle</a></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark" style="background-color: #101010;">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<div class="widget clearfix">
+
+								<div class="row col-mb-30">
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Home</a></li>
+											<li><a href="#">About</a></li>
+											<li><a href="#">FAQs</a></li>
+											<li><a href="#">Support</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Shop</a></li>
+											<li><a href="#">Portfolio</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Events</a></li>
+											<li><a href="#">Forums</a></li>
+										</ul>
+									</div>
+
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Corporate</a></li>
+											<li><a href="#">Agency</a></li>
+											<li><a href="#">eCommerce</a></li>
+											<li><a href="#">Personal</a></li>
+											<li><a href="#">One Page</a></li>
+										</ul>
+									</div>
+
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Corporate</a></li>
+											<li><a href="#">Agency</a></li>
+											<li><a href="#">eCommerce</a></li>
+											<li><a href="#">Personal</a></li>
+											<li><a href="#">One Page</a></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-3 mt-5 mt-lg-0 text-center text-lg-right">
+							<div class="widget clearfix">
+
+								<div class="row">
+									<div class="col-12 mb-3">
+										<small>Call Us:</small>
+										<h4 class="h4">+(1) 22 55412474</h4>
+									</div>
+
+									<div class="col-12 d-flex justify-content-center justify-content-lg-end">
+										<a href="#" class="social-icon si-small si-light si-facebook">
+											<i class="icon-facebook"></i>
+											<i class="icon-facebook"></i>
+										</a>
+										<a href="#" class="social-icon si-small si-light si-delicious">
+											<i class="icon-delicious"></i>
+											<i class="icon-delicious"></i>
+										</a>
+										<a href="#" class="social-icon si-small si-light si-paypal">
+											<i class="icon-paypal"></i>
+											<i class="icon-paypal"></i>
+										</a>
+										<a href="#" class="social-icon si-small si-light si-flattr">
+											<i class="icon-flattr"></i>
+											<i class="icon-flattr"></i>
+										</a>
+									</div>
+
+									<div class="col-12 mt-5 text-white-50 text-smaller">
+										All Rights Reserved <br>&copy; 2020 by SemiColonWeb<br>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- TinyMCE Plugin -->
+	<script src="js/components/tinymce/tinymce.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery(document).ready( function(){
+
+			$('input[type="file"]').change(function(e){
+				var fileName = e.target.files[0].name;
+				$('.custom-file-label').html(fileName);
+			});
+
+			tinymce.init({
+				selector: '#post-message',
+				menubar: false,
+				setup: function(editor) {
+					editor.on('change', function(e) {
+						editor.save();
+					});
+				}
+			});
+
+			$(function(){
+		      if(window.location.hash) {
+		          var hash = window.location.hash;
+		          $(hash).modal('toggle');
+		      }
+		  });
+		});
+	</script>
+
+	</body>
+	</html>

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+
+	<!-- Crowdfunding Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/crowdfunding/crowdfunding.css" type="text/css" />
+	<link rel="stylesheet" href="demos/crowdfunding/css/fonts.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
+	<link rel="stylesheet" href="css/colors.php?color=209EBB" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Lists - Crowd-Funding | Canvas</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Login/Register Modal -->
+		<div class="modal-register mfp-hide" id="modal-register">
+			<div class="card mx-auto" style="max-width: 400px;">
+				<div class="card-header py-3 bg-transparent center">
+					<h3 class="mb-0 font-weight-normal">Hello, Welcome Back</h3>
+				</div>
+				<div class="card-body mx-auto p-5">
+
+					<form id="login-form" name="login-form" class="mb-0 row" action="#" method="post">
+
+						<div class="col-12">
+							<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control not-dark" placeholder="Username" />
+						</div>
+
+						<div class="col-12 mt-4">
+							<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control not-dark" placeholder="Password" />
+						</div>
+
+						<div class="col-12 text-right mt-2">
+							<a href="#" class="text-dark font-weight-light text-smaller">Forgot Password?</a>
+						</div>
+
+						<div class="col-12 mt-4">
+							<button class="button btn-block m-0" id="login-form-submit" name="login-form-submit" value="login">Login</button>
+						</div>
+					</form>
+				</div>
+				<div class="card-footer py-4 center">
+					<p class="mb-0">Don't have an account? <a href="#"><u>Sign up</u></a></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header header-size-custom" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo"><img src="demos/ecommerce/images/logo.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo"><img src="demos/ecommerce/images/logo@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<a href="#modal-register" data-lightbox="inline" class="button button-small font-weight-semibold button-border button-rounded ls0 font-weight-medium nott">Start A Campaign</a>
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item"><a class="menu-link" href="demo-crowdfunding.html"><div>Home</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="demo-crowdfunding-lists.html"><div>Explore</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-user font-weight-semibold"></i>Login</div></a>
+									<ul class="p-3 text-muted sub-menu-container">
+										<li>Not Registered Yet? Genuine Clients, 100% Trust Assurance and Lowest Fees on the Market. <a href="#modal-register" data-lightbox="inline" class="d-block mt-2"><u>Login/Register</u> <i class="icon-line-arrow-right"></i></a></li>
+									</ul>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap pt-0">
+
+				<div class="section mt-0 overflow-visible">
+					<div class="container">
+						<div class="row justify-content-center center">
+							<div class="col-lg-7">
+								<div class="heading-block border-bottom-0 mb-4">
+									<h2 class="mb-3">Ready to Fund? Explore Projects</h2>
+									<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit fugiat quisquam nesciunt. Dicta quis, rem consequuntur est beatae qui.</p>
+								</div>
+								<div class="input-group input-group-lg mb-4">
+									<input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search..">
+									<select class="custom-select col-4">
+										<option selected value="All">All</option>
+										<option value="Business">Business</option>
+										<option value="Design">Design</option>
+										<option value="Tech">Tech</option>
+										<option value="Fashion">Fashion</option>
+										<option value="Music">Music</option>
+										<option value="Software">Software</option>
+										<option value="Hardware">Hardware</option>
+									</select>
+									<div class="input-group-append">
+									    <button class="btn bg-color text-white border-0" type="button"><i class="icon-search"></i></button>
+									</div>
+								</div>
+								<a class="button button-rounded" href="#" role="button">Popular</a>
+								<a class="button button-rounded button-dark button-black" href="#" role="button">Newest</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+
+						<!-- Item 1 -->
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<div class="i-products">
+								<div class="products-image">
+									<a href="demo-crowdfunding-single.html">
+										<img src="demos/crowdfunding/images/items/1.jpg" alt="Image 1">
+										<span class="badge">Gadgets</span>
+									</a>
+								</div>
+								<div class="products-desc">
+									<h3><a href="demo-crowdfunding-single.html">iDrone 2019</a></h3>
+									<p>Holisticly conceptualize transparent niche markets whereas top-line web services. Monotonectally parallel task cross-unit platforms rather than.</p>
+									<div class="clear"></div>
+									<ul class="skills">
+										<li data-percent="73">
+											<span class="d-flex justify-content-between w-100">
+												<span class="counter"><span data-from="0" data-to="73" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
+												<span class="counter"><span data-from="0" data-to="20" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+									<div class="products-hoverlays">
+										<span class="products-location"><i class="icon-map-marker1"></i> Melbourne, Australia</span>
+										<ul class="list-group-flush my-3 mb-0">
+											<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
+											<li class="list-group-item"><strong>123</strong> Partcipants</li>
+											<li class="list-group-item"><strong>345</strong> Contributions</li>
+											<li class="list-group-item"><strong>20</strong> days remaining</li>
+										</ul>
+										<div class="product-user d-flex align-items-center mt-4">
+											<img src="demos/crowdfunding/images/investors/1.jpg" alt="">
+											<a href="demo-crowdfunding-single.html">By Jackson Pot </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item 2 -->
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<div class="i-products">
+								<div class="products-image">
+									<a href="demo-crowdfunding-single.html">
+										<img src="demos/crowdfunding/images/items/2.jpg" alt="Image 2">
+										<span class="badge">Lights</span>
+									</a>
+								</div>
+								<div class="products-desc">
+									<h3><a href="demo-crowdfunding-single.html">Bluetooth Lights</a></h3>
+									<p>Appropriately monetize diverse leadership skills vis-a-vis unique core competencies. Enthusiastically transition future-proof models.</p>
+									<div class="clear"></div>
+									<ul class="skills">
+										<li data-percent="85">
+											<span class="d-flex justify-content-between w-100">
+												<span class="counter"><span data-from="0" data-to="85" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
+												<span class="counter"><span data-from="0" data-to="11" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+									<div class="products-hoverlays">
+										<span class="products-location"><i class="icon-map-marker1"></i> Singapore</span>
+										<ul class="list-group-flush my-3 mb-0">
+											<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
+											<li class="list-group-item"><strong>123</strong> Partcipants</li>
+											<li class="list-group-item"><strong>345</strong> Contributions</li>
+											<li class="list-group-item"><strong>11</strong> days remaining</li>
+										</ul>
+										<div class="product-user d-flex align-items-center mt-4">
+											<img src="demos/crowdfunding/images/investors/2.jpg" alt="">
+											<a href="demo-crowdfunding-single.html">By Hanson Deck</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item 3 -->
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<div class="i-products">
+								<div class="products-image">
+									<a href="demo-crowdfunding-single.html">
+										<img src="demos/crowdfunding/images/items/3.jpg" alt="Image 3">
+										<span class="badge">Travel</span>
+									</a>
+								</div>
+								<div class="products-desc">
+									<h3><a href="demo-crowdfunding-single.html">Electric Bike</a></h3>
+									<p>Authoritatively drive distributed platforms whereas quality methods of empowerment. Conveniently deploy error-free portals vis-a-vis internal.</p>
+									<div class="clear"></div>
+									<ul class="skills">
+										<li data-percent="89">
+											<span class="d-flex justify-content-between w-100">
+												<span class="counter"><span data-from="0" data-to="89" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
+												<span class="counter"><span data-from="0" data-to="19" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+									<div class="products-hoverlays">
+										<span class="products-location"><i class="icon-map-marker1"></i> Dubai, UAE</span>
+										<ul class="list-group-flush my-3 mb-0">
+											<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
+											<li class="list-group-item"><strong>123</strong> Partcipants</li>
+											<li class="list-group-item"><strong>345</strong> Contributions</li>
+											<li class="list-group-item"><strong>19</strong> days remaining</li>
+										</ul>
+										<div class="product-user d-flex align-items-center mt-4">
+											<img src="demos/crowdfunding/images/investors/3.jpg" alt="">
+											<a href="demo-crowdfunding-single.html">By Eleanor Fant</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item 4 -->
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<div class="i-products">
+								<div class="products-image">
+									<a href="demo-crowdfunding-single.html">
+										<img src="demos/crowdfunding/images/items/4.jpg" alt="Image 4">
+										<span class="badge">Fashion</span>
+									</a>
+								</div>
+								<div class="products-desc">
+									<h3><a href="demo-crowdfunding-single.html">Waterproof Shoe</a></h3>
+									<p>Quickly enhance e-business partnerships whereas pandemic strategic theme areas. Progressively fashion exceptional ROI after viral opportunities.</p>
+									<div class="clear"></div>
+									<ul class="skills">
+										<li data-percent="92">
+											<span class="d-flex justify-content-between w-100">
+												<span class="counter"><span data-from="0" data-to="92" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
+												<span class="counter"><span data-from="0" data-to="16" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+									<div class="products-hoverlays">
+										<span class="products-location"><i class="icon-map-marker1"></i> Singapore</span>
+										<ul class="list-group-flush my-3 mb-0">
+											<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
+											<li class="list-group-item"><strong>123</strong> Partcipants</li>
+											<li class="list-group-item"><strong>345</strong> Contributions</li>
+											<li class="list-group-item"><strong>16</strong> days remaining</li>
+										</ul>
+										<div class="product-user d-flex align-items-center mt-4">
+											<img src="demos/crowdfunding/images/investors/4.jpg" alt="">
+											<a href="demo-crowdfunding-single.html">By Giles Posture</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item 5 -->
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<div class="i-products">
+								<div class="products-image">
+									<a href="demo-crowdfunding-single.html">
+										<img src="demos/crowdfunding/images/items/5.jpg" alt="Image 5">
+										<span class="badge">Music</span>
+									</a>
+								</div>
+								<div class="products-desc">
+									<h3><a href="demo-crowdfunding-single.html">Wooden Guiter</a></h3>
+									<p>Continually whiteboard standardized outsourcing before mission-critical deliverables. Compellingly e-enable integrated action items fully tested.</p>
+									<div class="clear"></div>
+									<ul class="skills">
+										<li data-percent="100">
+											<span class="d-flex justify-content-between w-100">
+												<span class="counter"><span data-from="0" data-to="100" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
+												<span class="counter"><span data-from="0" data-to="7" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+									<div class="products-hoverlays">
+										<span class="products-location"><i class="icon-map-marker1"></i> Mumbai, India</span>
+										<ul class="list-group-flush my-3 mb-0">
+											<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
+											<li class="list-group-item"><strong>123</strong> Partcipants</li>
+											<li class="list-group-item"><strong>345</strong> Contributions</li>
+											<li class="list-group-item"><strong>7</strong> days remaining</li>
+										</ul>
+										<div class="product-user d-flex align-items-center mt-4">
+											<img src="demos/crowdfunding/images/investors/5.jpg" alt="">
+											<a href="demo-crowdfunding-single.html">By Alan Fresco</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item 6 -->
+						<div class="col-lg-4 col-sm-6 mb-4">
+							<div class="i-products">
+								<div class="products-image">
+									<a href="demo-crowdfunding-single.html">
+										<img src="demos/crowdfunding/images/items/6.jpg" alt="Image 6">
+										<span class="badge">Travel</span>
+									</a>
+								</div>
+								<div class="products-desc">
+									<h3><a href="demo-crowdfunding-single.html">Travel Blanket</a></h3>
+									<p>Assertively foster an expanded array of meta-services via corporate ideas. Quickly simplify virtual results and client-based.</p>
+									<div class="clear"></div>
+									<ul class="skills">
+										<li data-percent="80">
+											<span class="d-flex justify-content-between w-100">
+												<span class="counter"><span data-from="0" data-to="73" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
+												<span class="counter"><span data-from="0" data-to="28" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+									<div class="products-hoverlays">
+										<span class="products-location"><i class="icon-map-marker1"></i> Bali, Indonesia</span>
+										<ul class="list-group-flush my-3 mb-0">
+											<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
+											<li class="list-group-item"><strong>123</strong> Partcipants</li>
+											<li class="list-group-item"><strong>345</strong> Contributions</li>
+											<li class="list-group-item"><strong>28</strong> days remaining</li>
+										</ul>
+										<div class="product-user d-flex align-items-center mt-4">
+											<img src="demos/crowdfunding/images/investors/6.jpg" alt="">
+											<a href="demo-crowdfunding-single.html">By Hilary Ouse</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<ul class="pagination justify-content-center mt-4">
+						<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true"> <span class="op-05" aria-hidden="true">&laquo;</span></a></li>
+						<li class="page-item active"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">4</a></li>
+						<li class="page-item"><a class="page-link" href="#">5</a></li>
+						<li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark" style="background-color: #373D52">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap pb-4">
+
+					<div class="row">
+
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget">
+
+								<h4 class="ls0 mb-4 nott">Features</h4>
+
+								<ul class="list-unstyled iconlist ml-0">
+									<li class="mb-2"><a href="#">Help Center</a></li>
+									<li class="mb-2"><a href="#">Paid with Moblie</a></li>
+									<li class="mb-2"><a href="#">Status</a></li>
+									<li class="mb-2"><a href="#">Changelog</a></li>
+									<li class="mb-2"><a href="#">Contact Support</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget">
+
+								<h4 class="ls0 mb-4 nott">Support</h4>
+
+								<ul class="list-unstyled iconlist ml-0">
+									<li class="mb-2"><a href="#">Home</a></li>
+									<li class="mb-2"><a href="#">About</a></li>
+									<li class="mb-2"><a href="#">FAQs</a></li>
+									<li class="mb-2"><a href="#">Support</a></li>
+									<li class="mb-2"><a href="#">Contact</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget">
+
+								<h4 class="ls0 mb-4 nott">Trending</h4>
+
+								<ul class="list-unstyled iconlist ml-0">
+									<li class="mb-2"><a href="#">Shop</a></li>
+									<li class="mb-2"><a href="#">Portfolio</a></li>
+									<li class="mb-2"><a href="#">Blog</a></li>
+									<li class="mb-2"><a href="#">Events</a></li>
+									<li class="mb-2"><a href="#">Forums</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6">
+							<div class="widget">
+
+								<h4 class="ls0 mb-4 nott">Get to Know us</h4>
+
+								<ul class="list-unstyled iconlist ml-0">
+									<li class="mb-2"><a href="#">Corporate</a></li>
+									<li class="mb-2"><a href="#">Agency</a></li>
+									<li class="mb-2"><a href="#">eCommerce</a></li>
+									<li class="mb-2"><a href="#">Personal</a></li>
+									<li class="mb-2"><a href="#">OnePage</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 text-md-right">
+							<div class="widget">
+
+								<img src="demos/ecommerce/images/logo-footer.png" alt="" height="60" class="mb-3">
+
+								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
+
+								<div class="d-flex justify-content-md-end">
+									<a href="#" class="social-icon si-small si-facebook si-colored" title="Facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-instagram si-colored" title="instagram">
+										<i class="icon-instagram"></i>
+										<i class="icon-instagram"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-paypal si-colored" title="Paypal">
+										<i class="icon-paypal"></i>
+										<i class="icon-paypal"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-wikipedia si-colored" title="Apple Pay">
+										<i class="icon-apple-pay"></i>
+										<i class="icon-apple-pay"></i>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+					<hr>
+					<div class="subscribe-widget d-flex align-items-center col justify-content-center py-2" data-loader="button">
+						<h4 class="mr-3 mb-0">Refer a startup, get 1,500</h4>
+						<div class="widget-subscribe-form-result"></div>
+						<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+							<div class="input-group">
+								<input type="email" name="widget-subscribe-form-email" class="form-control required not-dark" placeholder="Enter Your Email Address..">
+								<div class="input-group-append">
+									<button type="submit" class="btn button font-weight-semibold ls0 nott m-0">Subscribe</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<hr>
+
+					<p class="font-weight-light text-white-50 mt-4">Proactively grow leveraged functionalities without bricks-and-clicks outsourcing. Dramatically facilitate user-centric users rather than strategic web services. Interactively disintermediate innovative supply chains without error-free supply chains. Dynamically promote mission-critical e-markets for market-driven solutions. Synergistically target functional imperatives and functionalized alignments.<br><br>
+
+					Proactively create holistic opportunities whereas effective technologies. Globally syndicate timely internal or "organic" sources via leading-edge niches. Conveniently parallel task global outsourcing whereas cutting-edge ROI. Appropriately unleash proactive deliverables before viral ROI. Efficiently recaptiualize distinctive processes rather than ubiquitous vortals.<br><br>
+
+					Progressively iterate cooperative leadership through installed base processes. Progressively optimize magnetic e-tailers with corporate data. Seamlessly leverage existing backward-compatible networks vis-a-vis out-of-the-box mindshare. Efficiently formulate visionary intellectual capital before corporate e-markets. Enthusiastically streamline.</p>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md-6">
+							Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.
+						</div>
+
+						<div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
+							<div class="copyrights-menu copyright-links">
+								<a href="#">About</a>/<a href="#">Features</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-line-arrow-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<!-- ADD-ONS JS FILES -->
+	<script>
+
+		
+
+	</script>
+
+</body>
+</html>

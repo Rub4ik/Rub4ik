@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Blog Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/blog/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="demos/blog/blog.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/colors.php?color=F39887" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Single Blog Demo | Canvas</title>
+
+</head>
+
+<body class="stretched search-overlay">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="header-size-custom" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row justify-content-lg-between">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="mx-lg-auto col-auto flex-column order-lg-2 px-0">
+							<a href="demo-blog.html" class="standard-logo" data-dark-logo="demos/blog/images/logo-dark.png" data-mobile-logo="demos/blog/images/mobile-logo.png"><img src="demos/blog/images/logo.png" alt="Canvas Logo"></a>
+							<a href="demo-blog.html" class="retina-logo" data-dark-logo="demos/blog/images/logo-dark@2x.png" data-mobile-logo="demos/blog/images/mobile-logo@2x.png"><img src="demos/blog/images/logo@2x.png" alt="Canvas Logo"></a>
+							<span class="divider divider-center date-today"><span class="divider-text"></span></span>
+						</div><!-- #logo end -->
+
+						<div class="col-auto col-lg-3 order-lg-1 d-none d-md-flex px-0">
+							<div class="social-icons">
+								<a href="https://facebook.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-facebook" target="_blank">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="https://twitter.com/__semicolon" class="social-icon si-rounded si-dark si-mini si-twitter" target="_blank">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+								<a href=" https://instagram.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-instagram" target="_blank">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+							</div>
+						</div>
+
+						<div class="header-misc col-auto col-lg-3 justify-content-lg-end ml-0 ml-sm-3 px-0">
+
+							<!-- Bookmark
+							============================================= -->
+							<div class="dropdown dropdown-langs">
+								<button class="btn dropdown-toggle px-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="demos/seo/images/flags/eng.png" alt="French">
+								</button>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/fre.png" alt="Lang"> French</a>
+									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/ara.png" alt="Lang"> Arabic</a>
+									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/tha.png" alt="Lang"> Thailand</a>
+									<a href="#" class="dropdown-item disabled" tabindex="-1" aria-disabled="true"><img src="demos/seo/images/flags/eng.png" alt="Lang"> English</a>
+								</div>
+							</div>
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<div class="dark-mode header-misc-icon d-none d-md-block">
+								<a href="#"><i class="icon-dark"></i></a>
+							</div>
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="header-row justify-content-lg-center header-border">
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows">
+
+							<ul class="menu-container justify-content-between">
+								<li class="menu-item"><a class="menu-link" href="demo-blog.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>World</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Tech</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="demo-blog-categories.html"><div>Lifestyle</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Business</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Finance</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Food</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Sports</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="page-title-center">
+
+			<div class="container">
+				<h1>Lifestyle</h1>
+				<span>Phosfluorescently target clicks-and-mortar growth strategies for timely infrastructures. Monotonectally embrace high-quality applications.</span>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap pt-0 pt-sm-6">
+				<div class="container">
+
+					<!-- Single Page Categories
+					============================================= -->
+					<div class="row gutter-50">
+						<div class="col-lg-3 cat-widgets position-sticky h-100" style="top: 234px;">
+							<div class="widget widget-search">
+								<form class="input-group">
+									<input class="form-control" type="search" placeholder="Search" aria-label="Search">
+									<div class="input-group-append">
+										<button class="btn btn-outline-secondary icon-line-search" type="button"></button>
+									  </div>
+								</form>
+							</div>
+
+							<div class="widget widget-nav mt-md-5">
+								<ul class="nav">
+									<li class="nav-item active">
+										<a class="nav-link" href="#">All Categories</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Fashion</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Arts &amp; Culture</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Family</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Beauty</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Fitness</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Music</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Design &amp; Illustrations</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-9 mt-5 mt-lg-0">
+							<div class="d-flex">
+								<div class="flex-grow-1">
+									<h3>All Lifestyle Posts</h3>
+								</div>
+								<div>
+									<!-- Example single danger button -->
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Most Popular
+										</button>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="#">Latest Posts</a>
+											<a class="dropdown-item" href="#">Most Comments</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row col-mb-50 posts-md">
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/1.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Arts & Culture</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">On World Art Day, try out this activity for the whole family</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>March 21, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Today’s freebie is a set of 60 beautiful multimedia icons designed by Carlotta Govi.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/2.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Fashion</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">10 Trendy Fashion Instagram Profile You Need to Follow</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>March 19, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Rapidiously network cross-media processes without viral services. Professionally syndicate holistic ROI.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/3.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">23 Top Travel Bloggers Who Inspire Us To Travel</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>March 11, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Collaboratively leverage existing competitive alignments without robust ideas. Completely synthesize.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/4.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">The Best Destinations in Asia for Solo Travel</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>Feb 23, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/5.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Fitness</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Should You Wear a Face Mask While Walking Outside?</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>Feb 20, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/6.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Fitness</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">10 Walking Mistakes to Avoid if You Want to Lose Weight</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>Feb 12, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/7.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Design &amp; Illustrations</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">60 SVG Multimedia Icons for Commercial Use</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>Feb 10, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/8.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Family</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Find high-quality apps for kids on Google Play</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>Feb 08, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+
+								<div class="col-md-4">
+									<article class="entry">
+										<div class="entry-image mb-3">
+											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/9.jpg" alt="Image 3"></a>
+										</div>
+										<div class="entry-title title-sm">
+											<div class="entry-categories"><a href="demo-blog-categories.html">Music</a></div>
+											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Most Influential Music Blogs 2020</a></h3>
+										</div>
+										<div class="entry-meta">
+											<ul>
+												<li>Feb 06, 2020</li>
+											</ul>
+										</div>
+										<div class="entry-content mt-3">
+											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
+											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
+										</div>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- Single Page Categories End -->
+
+					<!-- Subscribe Section
+					============================================= -->
+					<div class="section section-colored rounded mb-0 px-4">
+						<div class="row justify-content-center align-items-center">
+							<div class="col-lg-5">
+								<h3 class="mb-4 mb-lg-0">Sign up for Updates &amp; Newsletters.</h3>
+							</div>
+							<div class="col-lg-6">
+								<div class="widget subscribe-widget" data-loader="button">
+
+									<div class="widget-subscribe-form-result"></div>
+									<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0 d-flex">
+										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Your Email Address">
+										<button class="button button-large button-black button-dark font-weight-medium ls0 button-rounded m-0 ml-3" type="submit">Subscribe Now</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div> <!-- Subscribe Section End -->
+
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap row col-mb-50">
+
+					<!-- Footer Widget 3
+					============================================= -->
+					<div class="col-lg-2 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Management</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/">About Us</a></li>
+								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Careers</a></li>
+								<li><a href="https://wordpress.org/extend/plugins/">Customers</a></li>
+								<li><a href="https://wordpress.org/support/">Forums</a></li>
+								<li><a href="https://wordpress.org/extend/themes/">Partners</a></li>
+								<li><a href="https://wordpress.org/news/">Themes</a></li>
+								<li><a href="https://planet.wordpress.org/">Pricing</a></li>
+								<li><a href="https://planet.wordpress.org/">Reviews</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Widget 3
+					============================================= -->
+					<div class="col-lg-2 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Our Products</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/">Real Estate</a></li>
+								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Movers</a></li>
+								<li><a href="https://wordpress.org/extend/plugins/">Stores</a></li>
+								<li><a href="https://wordpress.org/support/">Landing</a></li>
+								<li><a href="https://wordpress.org/extend/themes/">Seo</a></li>
+								<li><a href="https://wordpress.org/news/">CoWorking</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Widget 3
+					============================================= -->
+					<div class="col-lg-2 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Support</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/">Privacy</a></li>
+								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Help Center</a></li>
+								<li><a href="https://wordpress.org/extend/plugins/">Chat</a></li>
+								<li><a href="https://wordpress.org/support/">Email Us</a></li>
+							</ul>
+							<div class="mt-3">
+								<a href="https://facebook.com/semicolonweb" class="social-icon si-small si-dark si-facebook" title="Facebook" target="_blank">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="https://instagram.com/semicolonweb" class="social-icon si-small si-dark si-instagram" title="instagram" target="_blank">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+
+								<a href="https://twitter.com/__semicolon" class="social-icon si-small si-dark si-twitter" title="twitter" target="_blank">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-wikipedia" title="Apple Pay">
+									<i class="icon-apple-pay"></i>
+									<i class="icon-apple-pay"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Widget 2
+						============================================= -->
+					<div class="col-lg-3 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Tag Cloud</h4>
+							<div class="tagcloud">
+								<a href="#">general</a>
+								<a href="#">videos</a>
+								<a href="#">music</a>
+								<a href="#">media</a>
+								<a href="#">photography</a>
+								<a href="#">parallax</a>
+								<a href="#">ecommerce</a>
+								<a href="#">terms</a>
+								<a href="#">coupons</a>
+								<a href="#">modern</a>
+								<a href="#">magazine</a>
+								<a href="#">bootstrap</a>
+								<a href="#">news</a>
+								<a href="#">blog</a>
+								<a href="#">wordpress</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Widget 4
+					============================================= -->
+					<div class="col-lg-3 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Download in Mobile</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae esse iure est, quam libero!</p>
+							<a href="#" class="button button-dark  text-light btn-block text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-apple"></i>App Store</a>
+							<a href="#" class="button button-dark  text-light btn-block text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-googleplay"></i>Google Play</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row align-items-center justify-content-between col-mb-30">
+						<div class="col-lg-auto text-center text-lg-left">
+							Copyrights &copy; 2018 All Rights Reserved by Canvas Inc.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div>
+
+						<div class="col-lg-auto text-center text-lg-left">
+							<div class="copyrights-menu copyright-links m-0">
+								<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up rounded-circle" style="left: 30px; right: auto;"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<!-- ADD-ONS JS FILES -->
+	<script>
+		// Current Date
+		var weekday = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"],
+			month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+			a = new Date();
+
+			jQuery('.date-today span').html( weekday[a.getDay()] + ', ' + month[a.getMonth()] + ' ' + a.getDate() );
+
+		jQuery('.dark-mode').on( 'click', function() {
+			jQuery("body").toggleClass('dark');
+			SEMICOLON.header.logo();
+			return false;
+		});
+	</script>
+
+</body>
+</html>

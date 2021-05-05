@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Blog Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/blog/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="demos/blog/blog.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/colors.php?color=F39887" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Single Blog Demo | Canvas</title>
+
+</head>
+
+<body class="stretched search-overlay">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="header-size-custom" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row justify-content-lg-between">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="mx-lg-auto col-auto flex-column order-lg-2 px-0">
+							<a href="demo-blog.html" class="standard-logo" data-dark-logo="demos/blog/images/logo-dark.png" data-mobile-logo="demos/blog/images/mobile-logo.png"><img src="demos/blog/images/logo.png" alt="Canvas Logo"></a>
+							<a href="demo-blog.html" class="retina-logo" data-dark-logo="demos/blog/images/logo-dark@2x.png" data-mobile-logo="demos/blog/images/mobile-logo@2x.png"><img src="demos/blog/images/logo@2x.png" alt="Canvas Logo"></a>
+							<span class="divider divider-center date-today"><span class="divider-text"></span></span>
+						</div><!-- #logo end -->
+
+						<div class="col-auto col-lg-3 order-lg-1 d-none d-md-flex px-0">
+							<div class="social-icons">
+								<a href="https://facebook.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-facebook" target="_blank">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="https://twitter.com/__semicolon" class="social-icon si-rounded si-dark si-mini si-twitter" target="_blank">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+								<a href=" https://instagram.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-instagram" target="_blank">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+							</div>
+						</div>
+
+						<div class="header-misc col-auto col-lg-3 justify-content-lg-end ml-0 ml-sm-3 px-0">
+
+							<!-- Bookmark
+							============================================= -->
+							<div class="dropdown dropdown-langs">
+								<button class="btn dropdown-toggle px-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="demos/seo/images/flags/eng.png" alt="French">
+								</button>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/fre.png" alt="Lang"> French</a>
+									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/ara.png" alt="Lang"> Arabic</a>
+									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/tha.png" alt="Lang"> Thailand</a>
+									<a href="#" class="dropdown-item disabled" tabindex="-1" aria-disabled="true"><img src="demos/seo/images/flags/eng.png" alt="Lang"> English</a>
+								</div>
+							</div>
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<div class="dark-mode header-misc-icon d-none d-md-block">
+								<a href="#"><i class="icon-dark"></i></a>
+							</div>
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="header-row justify-content-lg-center header-border">
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows">
+
+							<ul class="menu-container justify-content-between">
+								<li class="menu-item"><a class="menu-link" href="demo-blog.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>World</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Tech</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Lifestyle</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Business</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Finance</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Food</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Sports</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+
+		</header><!-- #header end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap pt-5" style="overflow: visible;">
+
+				<div class="container">
+					<!-- Single Page Content
+					============================================= -->
+					<div class="single-post mb-0">
+
+						<!-- Single Post
+						============================================= -->
+						<div class="entry">
+
+							<div class="row justify-content-center">
+								<div class="col-lg-6">
+									<!-- Entry Title
+									============================================= -->
+									<div class="entry-title">
+										<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus Update - World</a></div>
+										<h2>All online Conferences to save your box, get Inspired and Stay Connected</h2>
+									</div><!-- .entry-title end -->
+								</div>
+							</div>
+
+							<!-- Entry Meta
+							============================================= -->
+							<div class="d-flex justify-content-center mt-2">
+								<div class="entry-meta">
+									<ul>
+										<li>10th July 2014</li>
+										<li>By <a href="#">SemiColonWeb</a></li>
+									</ul>
+								</div>
+							</div><!-- .entry-meta end -->
+
+							<!-- Entry Image
+							============================================= -->
+							<div class="entry-image mt-5">
+								<a href="demos/blog/images/single/hero-full.jpg" data-lightbox="image"><img class="rounded" src="demos/blog/images/single/hero.jpg" alt="Blog Single"></a>
+							</div><!-- .entry-image end -->
+
+							<!-- Entry Content
+							============================================= -->
+							<div class="entry-content">
+
+								<div class="row">
+
+									<div class="col-lg-2 media-content" data-animate="fadeIn">
+										<div class="entry-title text-left">
+											<h4>All online Conferences to save your box, get Inspired and Stay Connected</h4>
+										</div>
+										<!-- Post Single - Share
+										============================================= -->
+										<div>
+											<h5 class="mb-2">Share this Post:</h5>
+											<div>
+												<a href="#" class="social-icon si-small si-rounded si-colored si-facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#" class="social-icon si-small si-rounded si-colored ml-1 si-twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="#" class="social-icon si-small si-rounded si-colored ml-1 si-pinterest">
+													<i class="icon-pinterest"></i>
+													<i class="icon-pinterest"></i>
+												</a>
+												<a href="#" class="social-icon si-small si-rounded si-colored ml-1 si-rss">
+													<i class="icon-rss"></i>
+													<i class="icon-rss"></i>
+												</a>
+											</div>
+										</div><!-- Post Single - Share End -->
+									</div>
+
+									<div class="col-lg-1"></div>
+
+									<div class="text-content col-lg-6">
+
+										<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p><br>
+
+										<h3>1. Content</h3>
+										In this cheat sheet, we will go over the following:
+										<ol class="list-numbers">
+											<li>Anatomy</li>
+											<li>Dropdown types and variations</li>
+											<li>Dropdown styles</li>
+											<li>Dropdown states</li>
+											<li>What the placeholder should say</li>
+											<li>When not to use a dropdown (and when to)</li>
+											<li>Native dropdowns</li>
+											<li>Accessibility checklist</li>
+											<li>Closing thoughts</li>
+										</ol>
+
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="#">Curabitur blandit tempus porttitor</a>. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.</p>
+
+										<blockquote><p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p></blockquote><br>
+
+										<h3>2. Anatomy</h3>
+
+										<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.</p>
+
+										<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. <a href="#">Nullam quis risus eget urna</a> mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+										<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p><br>
+
+										<h3>3. Standard Solution</h3>
+										<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.</p>
+
+										<div class="row mb-4" data-lightbox="gallery">
+											<div class="col-md-6">
+												<a href="demos/blog/images/single/1-full.jpg" data-lightbox="gallery-item"><img class="rounded" src="demos/blog/images/single/1.jpg" alt="Alt Images"></a>
+											</div>
+											<div class="col-md-6">
+												<a href="demos/blog/images/single/2-full.jpg" data-lightbox="gallery-item"><img class="rounded" src="demos/blog/images/single/2.jpg" alt="Alt Images"></a>
+											</div>
+										</div>
+										<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.</p>
+
+										<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. <a href="#">Nullam quis risus eget urna</a> mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+										<div class="line"></div>
+
+										<!-- Tag Cloud
+										============================================= -->
+										<div class="tagcloud">
+											<h4>Related Tags</h4>
+											<a href="#">general</a>
+											<a href="#">information</a>
+											<a href="#">media</a>
+											<a href="#">press</a>
+											<a href="#">gallery</a>
+											<a href="#">illustration</a>
+										</div><!-- .tagcloud end -->
+
+										<div class="clear"></div>
+
+										<!-- Comments
+										============================================= -->
+										<div id="comments">
+
+											<h3 id="comments-title"><span>3</span> Comments</h3>
+
+											<!-- Comments List
+											============================================= -->
+											<ol class="commentlist">
+
+												<li class="comment even thread-even depth-1" id="li-comment-1">
+
+													<div id="comment-1" class="comment-wrap">
+
+														<div class="comment-meta">
+
+															<div class="comment-author vcard">
+
+																<span class="comment-avatar">
+																<img alt='' src='https://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></span>
+
+															</div>
+
+														</div>
+
+														<div class="comment-content">
+
+															<div class="comment-author">John Doe<span><a href="#" title="Permalink to this comment">April 24, 2012 at 10:46 am</a></span></div>
+
+															<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+															<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
+
+														</div>
+
+														<div class="clear"></div>
+
+													</div>
+
+
+													<ul class='children'>
+
+														<li class="comment byuser comment-author-_smcl_admin odd alt depth-2" id="li-comment-3">
+
+															<div id="comment-3" class="comment-wrap">
+
+																<div class="comment-meta">
+
+																	<div class="comment-author vcard">
+
+																		<span class="comment-avatar">
+																		<img alt='' src='https://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></span>
+
+																	</div>
+
+																</div>
+
+																<div class="comment-content">
+
+																	<div class="comment-author"><a href='#' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
+
+																	<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+																	<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
+
+																</div>
+
+																<div class="clear"></div>
+
+															</div>
+
+														</li>
+
+													</ul>
+
+												</li>
+
+												<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
+
+													<div id="comment-2" class="comment-wrap">
+
+														<div class="comment-meta">
+
+															<div class="comment-author vcard">
+
+																<span class="comment-avatar">
+																<img alt='' src='https://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></span>
+
+															</div>
+
+														</div>
+
+														<div class="comment-content">
+
+															<div class="comment-author"><a href='https://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
+
+															<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+															<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
+
+														</div>
+
+														<div class="clear"></div>
+
+													</div>
+
+												</li>
+
+											</ol><!-- .commentlist end -->
+
+											<div class="clear"></div>
+
+											<!-- Comment Form
+											============================================= -->
+											<div id="respond">
+
+												<h3>Leave a <span>Comment</span></h3>
+
+												<form class="row mb-0" action="#" method="post" id="commentform">
+
+													<div class="form-group col-4">
+														<label for="author">Name</label>
+														<input type="text" name="author" id="author" value="" size="22" tabindex="1" class="form-control" />
+													</div>
+
+													<div class="form-group col-4">
+														<label for="email">Email</label>
+														<input type="text" name="email" id="email" value="" size="22" tabindex="2" class="form-control" />
+													</div>
+
+													<div class="form-group col-4">
+														<label for="url">Website</label>
+														<input type="text" name="url" id="url" value="" size="22" tabindex="3" class="form-control" />
+													</div>
+
+													<div class="w-100"></div>
+
+													<div class="form-group col-12">
+														<label for="comment">Comment</label>
+														<textarea name="comment" id="comment" cols="58" rows="7" tabindex="4" class="form-control"></textarea>
+													</div>
+
+													<div class="form-group col-12 mt-4 mb-0">
+														<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-large button-black button-dark nott font-weight-medium ls0 button-rounded m-0">Submit Comment</button>
+													</div>
+
+												</form>
+
+											</div><!-- #respond end -->
+
+										</div><!-- #comments end -->
+									</div>
+									<!-- Post Single - Content End -->
+
+								</div>
+
+							</div>
+						</div><!-- .entry end -->
+
+						<h3 class="mb-0">Related Posts</h3>
+
+						<div class="row posts-md">
+							<div class="col-lg-3 col-sm-6">
+								<article class="entry">
+									<div class="entry-image">
+										<a href="#"><img src="demos/blog/images/video-thumbs/1.jpg" alt="Image 3"></a>
+									</div>
+									<div class="entry-title title-sm text-left">
+										<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
+										<h3><a href="#" class="color-underline stretched-link">The Best Destinations in Asia for Solo Travel</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><a href="#">Mar 11, 2016</a></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<div class="col-lg-3 col-sm-6">
+								<article class="entry">
+									<div class="entry-image">
+										<a href="#"><img src="demos/blog/images/video-thumbs/2.jpg" alt="Image 3"></a>
+									</div>
+									<div class="entry-title title-sm text-left">
+										<div class="entry-categories"><a href="demo-blog-categories.html">Fashion</a></div>
+										<h3><a href="#" class="color-underline stretched-link">10 Trendy Fashion Instagram Profile You Need to Follow</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><a href="#">Mar 11, 2016</a></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<div class="col-lg-3 col-sm-6">
+								<article class="entry">
+									<div class="entry-image">
+										<a href="#"><img src="demos/blog/images/video-thumbs/3.jpg" alt="Image 3"></a>
+									</div>
+									<div class="entry-title title-sm text-left">
+										<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
+										<h3><a href="#" class="color-underline stretched-link">23 Top Travel Bloggers Who Inspire Us To Travel</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><a href="#">Mar 11, 2016</a></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+
+							<div class="col-lg-3 col-sm-6">
+								<article class="entry">
+									<div class="entry-image">
+										<a href="#"><img src="demos/blog/images/video-thumbs/4.jpg" alt="Image 3"></a>
+									</div>
+									<div class="entry-title title-sm text-left">
+										<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
+										<h3><a href="#" class="color-underline stretched-link">23 Top Travel Bloggers Who Inspire Us To Travel</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li><a href="#">Mar 11, 2016</a></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+						</div>
+
+					</div>
+					<!-- Single Page Content -->
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap row col-mb-50">
+
+					<!-- Footer Widget 3
+					============================================= -->
+					<div class="col-lg-2 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Management</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/">About Us</a></li>
+								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Careers</a></li>
+								<li><a href="https://wordpress.org/extend/plugins/">Customers</a></li>
+								<li><a href="https://wordpress.org/support/">Forums</a></li>
+								<li><a href="https://wordpress.org/extend/themes/">Partners</a></li>
+								<li><a href="https://wordpress.org/news/">Themes</a></li>
+								<li><a href="https://planet.wordpress.org/">Pricing</a></li>
+								<li><a href="https://planet.wordpress.org/">Reviews</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Widget 3
+					============================================= -->
+					<div class="col-lg-2 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Our Products</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/">Real Estate</a></li>
+								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Movers</a></li>
+								<li><a href="https://wordpress.org/extend/plugins/">Stores</a></li>
+								<li><a href="https://wordpress.org/support/">Landing</a></li>
+								<li><a href="https://wordpress.org/extend/themes/">Seo</a></li>
+								<li><a href="https://wordpress.org/news/">CoWorking</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Widget 3
+					============================================= -->
+					<div class="col-lg-2 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Support</h4>
+							<ul>
+								<li><a href="https://codex.wordpress.org/">Privacy</a></li>
+								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Help Center</a></li>
+								<li><a href="https://wordpress.org/extend/plugins/">Chat</a></li>
+								<li><a href="https://wordpress.org/support/">Email Us</a></li>
+							</ul>
+							<div class="mt-3">
+								<a href="https://facebook.com/semicolonweb" class="social-icon si-small si-dark si-facebook" title="Facebook" target="_blank">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="https://instagram.com/semicolonweb" class="social-icon si-small si-dark si-instagram" title="instagram" target="_blank">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+
+								<a href="https://twitter.com/__semicolon" class="social-icon si-small si-dark si-twitter" title="twitter" target="_blank">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-wikipedia" title="Apple Pay">
+									<i class="icon-apple-pay"></i>
+									<i class="icon-apple-pay"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Widget 2
+						============================================= -->
+					<div class="col-lg-3 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Tag Cloud</h4>
+							<div class="tagcloud">
+								<a href="#">general</a>
+								<a href="#">videos</a>
+								<a href="#">music</a>
+								<a href="#">media</a>
+								<a href="#">photography</a>
+								<a href="#">parallax</a>
+								<a href="#">ecommerce</a>
+								<a href="#">terms</a>
+								<a href="#">coupons</a>
+								<a href="#">modern</a>
+								<a href="#">magazine</a>
+								<a href="#">bootstrap</a>
+								<a href="#">news</a>
+								<a href="#">blog</a>
+								<a href="#">wordpress</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Widget 4
+					============================================= -->
+					<div class="col-lg-3 col-sm-6">
+						<div class="widget widget_links">
+							<h4 class="mb-3 mb-sm-4 nott ls0">Download in Mobile</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae esse iure est, quam libero!</p>
+							<a href="#" class="button button-dark  text-light btn-block text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-apple"></i>App Store</a>
+							<a href="#" class="button button-dark  text-light btn-block text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-googleplay"></i>Google Play</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row align-items-center justify-content-between col-mb-30">
+						<div class="col-lg-auto text-center text-lg-left">
+							Copyrights &copy; 2018 All Rights Reserved by Canvas Inc.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div>
+
+						<div class="col-lg-auto text-center text-lg-left">
+							<div class="copyrights-menu copyright-links m-0">
+								<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up rounded-circle" style="left: 30px; right: auto;"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<!-- ADD-ONS JS FILES -->
+	<script>
+		// Current Date
+		var weekday = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"],
+			month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+			a = new Date();
+
+			jQuery('.date-today span').html( weekday[a.getDay()] + ', ' + month[a.getMonth()] + ' ' + a.getDate() );
+
+		jQuery('.dark-mode').on( 'click', function() {
+		    jQuery("body").toggleClass('dark');
+		    SEMICOLON.header.logo();
+		    return false;
+		});
+	</script>
+
+</body>
+</html>
