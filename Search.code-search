@@ -1,0 +1,199 @@
+# Query: social-icon inline-block si-small si-light si-rounded si-facebook
+# ContextLines: 1
+
+46 results - 11 files
+
+about.html:
+  1623  									<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
+  1624: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1625  										<i class="icon-facebook"></i>
+
+  1695  									<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
+  1696: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1697  										<i class="icon-facebook"></i>
+
+boxed.html:
+  2263  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2264: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2265  											<i class="icon-facebook"></i>
+
+  2288  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2289: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2290  											<i class="icon-facebook"></i>
+
+  2313  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2314: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2315  											<i class="icon-facebook"></i>
+
+  2338  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2339: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2340  											<i class="icon-facebook"></i>
+
+demo-agency.html:
+  1810  						<div class="col-12 col-md-auto text-center text-md-right">
+  1811: 							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1812  								<i class="icon-facebook"></i>
+
+index-boxed.html:
+  2262  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2263: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2264  											<i class="icon-facebook"></i>
+
+  2287  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2288: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2289  											<i class="icon-facebook"></i>
+
+  2312  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2313: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2314  											<i class="icon-facebook"></i>
+
+  2337  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2338: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2339  											<i class="icon-facebook"></i>
+
+index-dark.html:
+  2263  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2264: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2265  											<i class="icon-facebook"></i>
+
+  2288  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2289: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2290  											<i class="icon-facebook"></i>
+
+  2313  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2314: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2315  											<i class="icon-facebook"></i>
+
+  2338  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2339: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2340  											<i class="icon-facebook"></i>
+
+index-rtl.html:
+  2265  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2266: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2267  											<i class="icon-facebook"></i>
+
+  2290  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2291: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2292  											<i class="icon-facebook"></i>
+
+  2315  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2316: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2317  											<i class="icon-facebook"></i>
+
+  2340  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2341: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2342  											<i class="icon-facebook"></i>
+
+index-video-sound-event.html:
+  2294  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2295: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2296  											<i class="icon-facebook"></i>
+
+  2319  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2320: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2321  											<i class="icon-facebook"></i>
+
+  2344  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2345: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2346  											<i class="icon-facebook"></i>
+
+  2369  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2370: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2371  											<i class="icon-facebook"></i>
+
+index-with-button.html:
+  2267  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2268: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2269  											<i class="icon-facebook"></i>
+
+  2292  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2293: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2294  											<i class="icon-facebook"></i>
+
+  2317  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2318: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2319  											<i class="icon-facebook"></i>
+
+  2342  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2343: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2344  											<i class="icon-facebook"></i>
+
+index.html:
+  2252  										<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  2253: 										<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2254  											<i class="icon-facebook"></i>
+
+  2277  										<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  2278: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2279  											<i class="icon-facebook"></i>
+
+  2302  										<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  2303: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2304  											<i class="icon-facebook"></i>
+
+  2327  										<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  2328: 										<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  2329  											<i class="icon-facebook"></i>
+
+profile.html:
+  1770  																<div class="team-title"><h4>Ibrokhim Ruzemtov</h4><span>CEO</span></div>
+  1771: 																<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1772  																	<i class="icon-facebook"></i>
+
+  1795  																<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  1796: 																<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1797  																	<i class="icon-facebook"></i>
+
+  1820  																<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  1821: 																<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1822  																	<i class="icon-facebook"></i>
+
+  1845  																<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  1846: 																<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1847  																	<i class="icon-facebook"></i>
+
+team.html:
+  1549  									<div class="team-title"><h4>JIbrokhim Ruzmetov</h4><span>CEO</span></div>
+  1550: 									<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1551  										<i class="icon-facebook"></i>
+
+  1572  									<div class="team-title"><h4>Josh Thompson</h4><span>Co-Founder</span></div>
+  1573: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1574  										<i class="icon-facebook"></i>
+
+  1595  									<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  1596: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1597  										<i class="icon-facebook"></i>
+
+  1626  									<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  1627: 									<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1628  										<i class="icon-facebook"></i>
+
+  1651  									<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  1652: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1653  										<i class="icon-facebook"></i>
+
+  1676  									<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  1677: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1678  										<i class="icon-facebook"></i>
+
+  1701  									<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  1702: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1703  										<i class="icon-facebook"></i>
+
+  1797  									<div class="team-title"><h4>Ibrokhim Ruzmetov</h4><span>CEO</span></div>
+  1798: 									<a href="https://www.facebook.com/Ibrokhimofficial/" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1799  										<i class="icon-facebook"></i>
+
+  1819  									<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
+  1820: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1821  										<i class="icon-facebook"></i>
+
+  1841  									<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
+  1842: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1843  										<i class="icon-facebook"></i>
+
+  1863  									<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
+  1864: 									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+  1865  										<i class="icon-facebook"></i>

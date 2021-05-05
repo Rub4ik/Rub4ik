@@ -1684,7 +1684,7 @@ $photos = $instagram->get_public_photos($search_user_id);
 											</address>
 											<abbr title="Phone Number"><strong>Phone:</strong></abbr>+48450142222<br>
 											<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
-											<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+											<abbr title="Email Address"><strong>Email:</strong></abbr> Ibroxim.ruzmetov@gmail.com
 										</div>
 
 									</div>
@@ -1897,7 +1897,7 @@ $photos = $instagram->get_public_photos($search_user_id);
 
 							<div class="clear"></div>
 
-							<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+							<i class="icon-envelope2"></i> Ibroxim.ruzmetov@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
 						</div>
 
 					</div>
