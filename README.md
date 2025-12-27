@@ -151,7 +151,7 @@ I'm always open to discussing new projects, innovative ideas, or opportunities t
   <a href="https://github.com/unbrokencivilization">
     <img src="https://github-readme-stats.vercel.app/api?username=unbrokencivilization&show_icons=true&theme=radical&hide_title=true&include_all_commits=true&count_private=true" alt="Ibrohim Ruzmetov's GitHub Stats" />
   </a>
-  <a href="https://github.com/aimlfsd">
+  <a href="https://github.com/unbokencivilization">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=unbrokencivilization&layout=compact&theme=radical&hide_title=true" alt="Top Languages" />
   </a>
 </div>
